@@ -10,6 +10,7 @@ class Anagram
   def match(possible_anagrams)
 
     possible_anagrams.detect {|i| i.split("").sort == @word}
+    possible_anagrams
 
 end
 
